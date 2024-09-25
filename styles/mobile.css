@@ -185,4 +185,55 @@
 .artists{
   gap: 1rem;
 }
+
+
+footer{
+  background-color: hsl(256, 89%, 7%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 3rem;
+  gap: 2rem;
+}
+
+.story{
+  display: flex;
+  gap: 1rem;
+  
+  justify-content: space-between;
+}
+
+.social{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.policy{
+  display: flex;
+  gap: 1rem;
+}
+footer {
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.footer-sections {
+  gap: 1rem;
+}
+
+.story p, .policy p {
+  font-size: 0.9rem;
+}
+
+.social i {
+  font-size: 1.6rem;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
   }

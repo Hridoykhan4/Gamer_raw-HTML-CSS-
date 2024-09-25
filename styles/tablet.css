@@ -184,5 +184,19 @@
           .artists{
             gap: 1rem;
           }
+          .footer-sections {
+            flex-direction: column;
+            align-items: center;
+          }
+        
+          .story, .policy, .social {
+            flex-direction: column;
+            align-items: center;
+          }
+        
+          .social i {
+            font-size: 1.8rem;
+          }
+        }
 
-      }
+      
